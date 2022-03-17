@@ -6,6 +6,14 @@
  *
  * Return: Always 0.
  */
+char isupper(char c)
+{
+    if(c isupper())
+	{
+	return 1;
+	}
+   return 0;
+}
 int main(void)
 {
     char c;
