@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
  *_puts_recursion - a function that prints a string.
@@ -10,20 +10,17 @@
 
 void _puts_recursion(char *s)
 {
-	if(*s == "\0")
-	{
-		return;
-	}
-	else
+	while(*s != "\0")
 	{
 		_putchar("%c", *s);
-		
+		*s++;
 	}
 	_putchar("\n");
-	
 }
 void main()
 {
-	_puts_recursion(s);
+	char word[50];
+	gets(word);
+	_puts_recursion(word);
 	return (0);
 }
