@@ -19,10 +19,6 @@ void _puts_recursion(char *s)
 		_putchar("%c", *s);
 	}
 	_putchar("\n");
-}
-int main(void)
-{
-	char s[50];
-	_puts_recursion(s + 1);
-	return (0);
+return (0);
+
 }
