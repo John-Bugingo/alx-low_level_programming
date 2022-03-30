@@ -10,17 +10,19 @@ i#include "main.h"
 
 void _puts_recursion(char *s)
 {
-	while (*s != "\0")
+	if (*s == "\0")
+	{
+		return;
+	}
+	else
 	{
 		_putchar("%c", *s);
-		*s++;
 	}
 	_putchar("\n");
 }
-void main(void)
+int main(void)
 {
-	char word[50];
-	gets(word);
-	_puts_recursion(word);
+	char s[50];
+	_puts_recursion(s);
 	return (0);
 }
