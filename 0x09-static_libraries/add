@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc add.c -o add2 && ./add2
