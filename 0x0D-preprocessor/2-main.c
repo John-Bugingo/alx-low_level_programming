@@ -3,7 +3,6 @@
  * main - This function prints the name of the file
  * Return: return nothing
  */
-
 int main(void)
 {
 	printf("%s\n", __FILE__);
